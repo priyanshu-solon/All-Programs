@@ -1,10 +1,12 @@
-#include<iosteam>
-using namespace std;
-
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
 int main()
 {
-    int sum,n,m;
-    cout<<"enter two numbers";
-    cin>>n>>m;
-    return sum;
+int a,b,sum;
+    printf("enter two numbers: ");
+      scanf("%d %d",&a,&b);
+      sum=a+b;
+    printf("sum is %d",sum);
+    getch();
 }
