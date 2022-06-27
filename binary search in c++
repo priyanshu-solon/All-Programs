@@ -1,0 +1,21 @@
+int binarysearch(int arr[], int n, int k) {
+       int key=k;
+       int start = 0;
+       int end=n-1;
+       int mid = (start+end)/2;
+       while(start<=end){
+           if(arr[mid]==key){
+               return mid;
+           }
+           // go to right part of array
+           if(key>arr[mid]){
+               start=mid+1;
+           }
+           // go to left part of array
+           else{
+               end=mid-1;
+           }
+           mid=(start+end)/2;
+       }
+       return-1;
+   }
