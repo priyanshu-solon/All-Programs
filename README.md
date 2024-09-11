@@ -1,6 +1,4 @@
 # All-Programs
-Creating a good README for your GitHub repository is essential to make it inviting and informative. Here’s a template you can use for your C and C++ code repository:
-
 Beginner’s C and C++ Code Repository
 Welcome to my collection of C and C++ programs! This repository contains various projects and exercises I completed during my college studies. It’s a great resource for beginners looking to learn and practice C and C++ programming.
 
